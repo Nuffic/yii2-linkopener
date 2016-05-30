@@ -1,0 +1,20 @@
+{
+  "name": "nuffic/yii2-linkopener",
+  "description": "Mailer that sends GET request to all links found in email",
+  "authors": [
+    {
+      "name": "Kaupo Juhkam",
+      "email": "kaupojuhkam@live.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "nuffic\\linkopener\\": "src"
+    }
+  },
+  "require": {
+    "yiisoft/yii2": "*",
+    "querypath/QueryPath": ">=3.0.0",
+    "guzzlehttp/guzzle": "^6.1"
+  }
+}
